@@ -1,0 +1,793 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+
+
+/********************* header *********************/
+.header{
+    width: 100%;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    
+    
+}
+
+.nav-container{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.logo{
+    font-size: 22px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.menu ul{
+   display: flex;
+   gap: 15px;
+   list-style-type: none;
+   
+}
+
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 0px 15px;
+}
+
+.menu ul li a:hover{
+    color: skyblue;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin-left: -30px;
+    padding: 12px;
+
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menu li:nth-child(1):hover div{
+    display: block;
+}
+
+
+
+
+
+/********************* section *********************/
+.section{
+    background-color: #f2f2f2;
+    display: flex;
+    margin-bottom: 50px;
+   
+}
+
+.section-box{
+    display: flex;
+    margin-top: 24px;
+    
+}
+
+.section-img{
+    background-image: url(/images/builder2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.sectioon-info{
+    padding: 30px 20px;
+}
+
+.about{
+    font-size: 20px;
+    padding: 30px 0px;
+}
+
+.section-title{
+    font-size: 35px;
+    font-family:'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+.section-text{
+    font-size: 18px;
+    opacity: 0.6;
+    margin-bottom: 24px;
+}
+
+.read-btn{
+    
+    margin-bottom: 20px;
+}
+
+.read-btn button{
+    width: 165px;
+    height: 45px;
+    border: none;
+    background-color: #db545a;
+    color: black;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+
+.read-btn button:hover{
+    background-color: black;
+    color: #db545a;
+}
+
+.end-text{
+    display: flex;
+    font-size: 18px;
+}
+
+.end-text button{
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 6px;
+    border: none;
+    text-decoration: underline #f1d251;
+}
+
+.end-text button:hover{
+    text-decoration: underline black;
+    
+}
+
+
+
+
+/********************* card *********************/
+.card-list{
+    display: flex;
+    height: 393px;
+    
+    
+}
+
+.card-list-inner{
+    text-align: center;
+    padding: 30px 20px;
+    background-color: yellow;
+    
+}
+
+.card-icon img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.card-title{
+    margin-bottom: 20px;
+}
+
+.card-text{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card-btn button{
+    font-size: 16px;
+    width: 110px;
+    height: 45px;
+}
+
+.card-list-inner:nth-child(1){
+    background-color: #db545a;
+    color: white;
+}
+
+.card-list-inner:nth-child(2){
+    background-color: #f1c50e;
+}
+.card-list-inner:nth-child(3){
+    background-color: #f5d654;
+}
+.card-list-inner:nth-child(4){
+    background-color: #f9e79b;
+}
+
+
+
+
+/********************* section----2 *********************/
+.section2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.s2-box-inner{
+    display: flex;
+}
+
+.s2-box{
+    padding: 30px;
+}
+
+.s2-text{
+    font-size: 24px;
+    margin-top: 189px;
+    margin-bottom: 30px;
+}
+
+.s2-info_box{
+    padding: 30px 100px;
+}
+
+.s2-info_title{
+    margin-top: 27px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.s2-info_text{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.s2-info_btn{
+    margin-bottom: 20px;
+}
+
+.s2-info_btn button{
+    width: 165px;
+    height: 45px;
+    border: none;
+    background-color: #db545a;
+    color: black;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+
+.s2-info_btn button:hover{
+    background-color: black;
+    color: #db545a;
+}
+
+.s2-end_text{
+    display: flex;
+    font-size: 18px;
+}
+
+.s2-end_text button{
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 6px;
+    border: none;
+    text-decoration: underline #f1d251;
+}
+
+.s2-end_text button:hover{
+    text-decoration: underline black;
+}
+
+
+
+
+
+
+/********************* section----3 *********************/
+.s3-bg_img{
+    background-image: url(https://www.landau-bldg.com/wp-content/uploads/2019/10/rockefeller-hp-portfolio.jpg);
+    width: 100%;
+    height: 740px;
+    background-size: cover;
+    background-position: center;
+}
+
+.s3-title{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.s3-text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 57px;
+}
+
+.s3-company_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s3-card{
+    width: 267px;
+    height: 306px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 39px;
+}
+
+
+.s3-card_img img{
+    display: block;
+    background-position: center;
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 21px;
+}
+
+.s3_card-title{
+    font-size: 24px;
+    text-align: center;
+}
+
+.s3-from{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.s3-from button{
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 6px;
+    color: white;
+    border: none;
+    
+}
+
+.s3-from button:hover{
+    text-decoration: underline white;
+}
+
+.s3-view_btn{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.s3-view_btn button{
+    width: 163px;
+    height: 45px;
+    background-color: #db545a;
+    color: black;
+    letter-spacing: 3px;
+    border: none;
+}
+
+.s3-view_btn button:hover{
+    background-color: black;
+    color: #db545a;
+}
+
+
+
+
+
+/********************* section----4 *********************/
+.s4-bg_box{
+    width: 442px;
+    height: 791px;
+    background-color: #f1c50e;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.s4-img-info img{
+    background-size: cover;
+    margin-top: 75px;
+    width: 692px;
+    height: 716px;
+    background-position: center;
+}
+
+.s4-img-info{
+    display: flex;
+
+}
+
+.s4-info_box{
+    background-color: white;
+    position: absolute;
+    margin-top: 281px;
+    margin-left: 544px;
+    width: 596px;
+    height: 425px;
+    padding: 30px 60px;
+}
+
+.s4-title{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.s4-text{
+    font-family: open sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.s4-from{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.s4-from button{
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 6px;
+    border: none;
+    text-decoration: underline #f1d251;
+}
+    
+.s4-from button:hover{
+    text-decoration: underline black;
+}
+
+.s4-read_btn button{
+    width: 163px;
+    height: 45px;
+    background-color: #db545a;
+    color: black;
+    letter-spacing: 3px;
+    border: none;
+}
+
+.s4-read_btn button:hover{
+    background-color: black;
+    color: #db545a;
+}
+
+
+
+
+
+
+/********************* section----5 *********************/
+.section5{
+    margin-bottom: 60px;
+}
+
+.s5-bg_img{
+    background-image: url(https://images.unsplash.com/photo-1541888915364-aaeed51d238b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    height: 771px;
+}
+
+.s5-info_box{
+    width: 465px;
+    height: 445px;
+    background-color: white;
+    position: absolute;
+    margin-top: 326px;
+    margin-left: 675px;
+    padding: 30px 40px;
+}
+
+
+.s5-title{
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.s5-text{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.s5-from{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.s5-from button{
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 6px;
+    border: none;
+    text-decoration: underline #f1d251;
+}
+    
+.s5-from button:hover{
+    text-decoration: underline black;
+}
+
+.s5-read_btn button{
+    width: 163px;
+    height: 45px;
+    background-color: #db545a;
+    color: black;
+    letter-spacing: 3px;
+    border: none;
+}
+
+.s5-read_btn button:hover{
+    background-color: black;
+    color: #db545a;
+}
+
+
+
+
+/********************* section----6 *********************/
+.section6{
+    margin-bottom: 48px;
+}
+
+.s6-info_box{
+    display: flex;
+}
+
+.s6-first{
+    padding: 30px;
+}
+
+.s6-img img{
+    width: 355px;
+    height: 355px;
+    margin-bottom: 30px;
+}
+
+.s6-list{
+    margin-bottom: 20px;
+    margin-left: 17px;
+}
+
+.s6-list li{
+    margin-bottom: 10px;
+}
+
+.s6-from{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.s6-from button{
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 6px;
+    border: none;
+    text-decoration: underline #f1d251;
+}
+    
+.s6-from button:hover{
+    text-decoration: underline black;
+}
+
+
+.s6-second{
+    padding: 26px 60px;
+}
+
+.s6-about_box{
+    margin-top: 87px;
+    margin-bottom: 66px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    width: 422px;
+    height: 222px;
+    background-color: #f1c50e;
+}
+
+.s6-about_box h5{
+    font-size: 28px;
+    margin-top: 30px;
+
+}
+
+.s6-about_box h2{
+    font-size: 60px;
+}
+
+.s6-text{
+    font-size: 18px;
+    margin-bottom: 12px;
+    padding: 0px 46px 0px 19px;
+}
+
+.s6-more-box{
+    width: 296px;
+    height: 239px;
+    font-size: 18px;
+    color: gray;
+    position: absolute;
+    margin-left: 255px;
+}
+
+.s6-more-box p{
+    margin-bottom: 20px;
+}
+
+.s6-read_btn button{
+    width: 163px;
+    height: 45px;
+    background-color: #db545a;
+    color: black;
+    letter-spacing: 3px;
+    border: none;
+}
+
+.s6-read_btn button:hover{
+    background-color: black;
+    color: #db545a;
+}
+
+
+
+
+
+/********************* section----7 *********************/
+.s7-box{
+    height: 432px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.s7-first{
+    padding: 30px;
+}
+
+.s7-title{
+    font-size: 28px;
+    margin-bottom: 21px;
+}
+
+.s7-text{
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.s7-yellow-box{
+    margin-top: 12px;
+    height: 10px;
+    width: 100px;
+    background-color: #f1c50e;
+    margin-bottom: 50px;
+}
+
+
+.s7-img img{
+    background-position: center;
+    background-size: contain;
+    width: 350px;
+    height: 432px;
+}
+
+.s7-read_btn button{
+    width: 163px;
+    height: 45px;
+    background-color: #db545a;
+    color: black;
+    letter-spacing: 3px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.s7-read_btn button:hover{
+    background-color: black;
+    color: #db545a;
+}
+
+.s7-from{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.s7-from button{
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 6px;
+    border: none;
+    text-decoration: underline #f1d251;
+}
+    
+.s7-from button:hover{
+    text-decoration: underline black;
+}
+
+
+
+
+
+
+/********************* section----8 *********************/
+.section8{
+    margin-bottom: 50px;
+}
+.s8-bg_img{
+    background-image: url(https://wallpapercave.com/wp/wp3544736.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 543px;
+}
+
+.s8-title{
+    text-align: center;
+    padding-top: 118px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}   
+
+.s8-text{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 340px;
+    margin-bottom: 20px;
+}
+
+.s8-company_list{
+    display: flex;
+}
+
+.s8-list_inner{
+    align-items: center;
+    width: 228px;
+    height: 153px;
+    background-color: white;
+    padding: 30px 26px;
+}
+
+.s8-list_inner img{
+    display: flex;
+    width: 116px;
+    height: 83px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/********************* footer *********************/
+.footer{
+    height: 100px;
+    background-color: gray;
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 30px 20px;
+}
+
